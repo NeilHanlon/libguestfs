@@ -261,7 +261,7 @@ enterprise environments, and with many happy and successful users.
 <h3>Getting started</h3>
 
 <pre>
-sudo yum install libguestfs-tools      # Fedora/RHEL/CentOS
+sudo yum install libguestfs-tools      # Fedora/RHEL/CentOS/Rocky
 sudo apt-get install libguestfs-tools  # Debian/Ubuntu
 guestfish --ro -i -a disk.img
 </pre>

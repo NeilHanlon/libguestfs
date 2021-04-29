@@ -105,7 +105,7 @@ AC_ARG_WITH([distro],
             ( . /etc/os-release && echo $ID | tr '@<:@:lower:@:>@' '@<:@:upper:@:>@' ) >&AS_MESSAGE_LOG_FD
             DISTRO="`. /etc/os-release && echo $ID | tr '@<:@:lower:@:>@' '@<:@:upper:@:>@'`"
             AS_CASE([$DISTRO],
-                    [FEDORA | RHEL | CENTOS],[DISTRO=REDHAT],
+                    [FEDORA | RHEL | CENTOS | ROCKY],[DISTRO=REDHAT],
                     [OPENSUSE* | SLED | SLES],[DISTRO=SUSE],
                     [ARCH | MANJARO],[DISTRO=ARCHLINUX],
                     [OPENMANDRIVA],[DISTRO=OPENMANDRIVA])

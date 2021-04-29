@@ -274,6 +274,10 @@ Some Red Hat-derived distro.
 
 Red Hat Enterprise Linux.
 
+=item \"rhel\"
+
+Rocky Linux.
+
 =item \"scientificlinux\"
 
 Scientific Linux.

@@ -836,7 +836,7 @@ You see errors like:
 
  mount: unknown filesystem type 'ntfs'
 
-On Red Hat Enterprise Linux or CentOS E<lt> 7.2, you have to install
+On Red Hat Enterprise Linux, CentOS, or Rocky Linux E<lt> 7.2, you have to install
 the
 L<libguestfs-winsupport|https://people.redhat.com/~rjones/libguestfs-winsupport/>
 package.  In RHEL E<ge> 7.2, C<libguestfs-winsupport> is part of the
